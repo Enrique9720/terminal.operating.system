@@ -3,5 +3,10 @@ Sistema de gestión logística basado en arquitectura MVC, que optimiza la carga
 
 terminal.operating.system.enriqueandresvaleroguillen.com
 
-admin.profesional.tfg -- admin
-cliente.profesional.tfg -- cliente
+Rol admin:
+user: admin.profesional.tfg
+pass: admin
+
+Rol cliente:
+user: cliente.profesional.tfg
+pass: cliente
