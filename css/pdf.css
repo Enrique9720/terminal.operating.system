@@ -1,0 +1,145 @@
+.div_pdf {
+	width: 1032px;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url({{ storage_path('fonts/OpenSans-Regular.ttf') }}) format('truetype');
+}
+
+@font-face {
+	font-family: 'DejaVu Sans';
+	src: url({{ storage_path('fonts/DejaVuSans.ttf') }}) format('truetype');
+}
+
+html{margin:0cm 1cm 1cm 1cm;}
+#cartaDePorte_in{
+	width: 18.5cm !important;
+	height: 27cm !important;
+	padding-top:25px !important;
+	padding-left: 25px !important;
+}
+
+#num_documento{
+	padding-left: 80px !important;
+	padding-top: 0px !important;
+}
+#cargador_1{
+	padding-left: 0px !important;
+	padding-top: 0px !important;
+}
+#operador{
+	padding-left: 80px !important;
+	padding-top: 10px !important;
+}	
+#destinatario{
+	padding-left: 80px !important;
+	padding-top: 20px !important;
+	font-size:12px !important;
+}
+#vehiculo{
+	padding-left: 580px !important;
+	padding-top: 30px !important;
+}
+#lugar_origen_mercancia{
+	padding-left: 50px !important;
+	padding-top: 50px !important;
+}
+#mercancia{
+	padding-left: 30px !important;
+	padding-top: 70px !important;
+}
+#fecha{
+	padding-left: 80px !important;
+	padding-top: 140px !important;
+}
+#cargador_2 {
+	padding-left: 50px !important;
+	padding-top: 150px !important;
+}
+
+
+.left-cell {
+	border: none;
+	padding-left: 10pt;
+	text-align: left;
+}
+
+.right-cell {
+	border: none;
+	padding-right: 10pt;
+	text-align: right;
+}
+
+h5{
+	font-family: 'DejaVu Sans';
+	background: #7f9dae;
+	color: white;
+	text-align: center;
+	height:24pt;
+	padding-top:8pt;
+	margin:0;
+}
+
+#table_top {
+	margin-top:0pt;
+}
+
+#td_logo{
+	width:400px;
+	text-align:center;
+	vertical-align:top;
+}
+	
+#table_resumen {
+	font-family: 'DejaVu Sans';
+	font-size: 7pt;
+	border-collapse: collapse;
+	table-layout: fixed;
+	margin-bottom:20pt;
+}
+
+.table{
+	font-family: 'DejaVu Sans';
+	font-size: 8pt;
+	margin:0;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.table th {
+	font-family: 'DejaVu Sans';
+	border: 1pt solid #ddd;
+}
+
+.table td {
+	font-family: 'Open Sans';
+	border: 1pt solid #ddd;
+}
+
+
+header {
+	position: fixed;
+	top: -10px;
+	left: 0px;
+	right: 0px;
+	height: 50px;
+	/** Extra personal styles **/
+	background-color: #03a9f4;
+	color: white;
+	text-align: center;
+	line-height: 35px;
+}
+
+footer {
+	position: fixed;
+	bottom: 10px;
+	left: 0px;
+	right: 0px;
+	height: 50px;
+	/** Extra personal styles **/
+	background-color: #03a9f4;
+	color: white;
+	text-align: center;
+	line-height: 35px;
+}

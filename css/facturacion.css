@@ -1,0 +1,53 @@
+
+.div_pdf {
+	width: 1032px;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../assets/dompdf/fonts/Open_Sans/OpenSans-Regular.ttf');
+}
+
+.left-cell {
+	padding-left: 10px;
+	text-align: left;
+}
+
+.right-cell {
+	padding-right: 10px;
+	text-align: right;
+}
+
+h5{
+	font-family: 'Open Sans';
+	background: #7f9dae;
+	color: white;
+	text-align: center;
+	height:40px;
+	padding-top:15px;
+	margin:0;
+}
+
+#table_top {
+	font-family: 'Open Sans';
+	margin-top:20px;
+}
+
+#td_logo{
+	width:400px;
+	text-align:center;
+	vertical-align:top;
+}
+	
+#table_resumen {
+	font-family: 'Open Sans';
+	font-size: 12px;
+	border-collapse: collapse;
+	table-layout: fixed;
+	margin-bottom:20px;
+}
+
+.table th {
+	font-family: 'Open Sans';
+	border: 1pt solid #ddd;
+}
